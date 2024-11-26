@@ -1,15 +1,15 @@
 import './App.css'
-import ColorfulUppercaseText from './components/ColorfulUppercaseText/ColorfulUppercaseText'
-import Button from './components/Button/button'
+import StyledText from './components/StyledText/index'
+import AlertButton from './components/AlertButton/index'
 
 function App() {
 
   return (
     <>
       <div>
-        <ColorfulUppercaseText color="green" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, in harum!" />
+        <StyledText color="green" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, in harum!" />
 
-        <Button label="Baixar CV" />
+        <AlertButton label="Baixar CV" />
       </div>
     </>
   )
